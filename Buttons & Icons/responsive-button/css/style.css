@@ -1,0 +1,45 @@
+body {
+  display: flex;
+
+  height: 100vh;
+  margin: 0;
+
+  background: #f1f1f1;
+
+  align-items: center;
+}
+
+.button {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+
+  display: inline-block;
+
+  margin: auto;
+  padding: 20px 40px;
+
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s ease-out;
+  text-decoration: none;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #f1f1f1;
+  border: 1px solid #904ef2;
+  background-color: #904ef2;
+  border-radius: 20px;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.button:hover {
+  color: #904ef2;
+  background-color: #f1f1f1;
+}
+
+/* 
+ * Other colors that look sexy
+ * Light Blue #19c6ef
+*/
